@@ -23,7 +23,7 @@ const featuredProducts = [
     category: 'sofas',
     rating: 4.8,
     reviews: 124,
-    image: '/public/products/Sofa+Chairs.JPG',
+    image: '/products/Sofa+Chairs.JPG',
     isNew: true,
     isBestSeller: true,
   },
@@ -46,7 +46,7 @@ const featuredProducts = [
     category: 'Chairs',
     rating: 4.9,
     reviews: 156,
-    image: '/public/products/Chairss.JPG',
+    image: '/products/Chairss.JPG',
     isBestSeller: true,
   },
 ];
