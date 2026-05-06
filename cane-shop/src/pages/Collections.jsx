@@ -8,23 +8,23 @@ import Button from '../components/common/Button';
 
 // Enhanced sample products
 const products = [
-  { id: 1, name: 'Chair', price: '₹14,999', category: 'chairs', isBestSeller: true, rating: 4.8, reviews: 124, image: '/public/products/Chair.JPG' },
-  { id: 2, name: 'Premium Square Chair', price: '₹11,500', category: 'chairs', isNew: true, rating: 4.7, reviews: 98, image: '/public/products/Chairss.JPG' },
+  { id: 1, name: 'Chair', price: '₹14,999', category: 'chairs', isBestSeller: true, rating: 4.8, reviews: 124, image: '/products/Chair.JPG' },
+  { id: 2, name: 'Premium Square Chair', price: '₹11,500', category: 'chairs', isNew: true, rating: 4.7, reviews: 98, image: '/products/Chairss.JPG' },
   { id: 3, name: 'The Tear-Drop Pod Swing', price: '₹22,999', category: 'outdoor', rating: 4.9, reviews: 213, image: '/products/cane_zoola_swing_1774781727751.png' },
-  { id: 4, name: 'Sofa Set', price: '₹35,000', category: 'sofas', isBestSeller: true, rating: 5.0, reviews: 45, image: '/public/products/Sofa set.JPG' },
+  { id: 4, name: 'Sofa Set', price: '₹35,000', category: 'sofas', isBestSeller: true, rating: 5.0, reviews: 45, image: '/products/Sofa set.JPG' },
   { id: 5, name: 'The Hourglass Mooda', price: '₹4,500', category: 'tables', rating: 4.5, reviews: 76, image: '/products/cane_moda_stool_1774781745213.png' },
   { id: 6, name: 'Square Bamboo Stool', price: '₹3,500', category: 'tables', isNew: true, rating: 4.6, reviews: 89, image: '/products/cane_square_stool_1774782033503.png' },
-  { id: 7, name: 'Chair', price: '₹6,500', category: 'chairs', rating: 4.9, reviews: 156, image: '/public/products/Chairs.JPG' },
-  { id: 8, name: 'Sofa Set', price: '₹75,000', category: 'sofas', isBestSeller: true, rating: 4.9, reviews: 112, image: '/public/products/Sofa Set (2).JPG' },
-  { id: 9, name: 'Cane Sofa', price: '₹10,000', category: 'sofas', isNew: true, rating: 4.8, reviews: 67, image: '/public/products/Sofa.JPG' },
+  { id: 7, name: 'Chair', price: '₹6,500', category: 'chairs', rating: 4.9, reviews: 156, image: '/products/Chairs.JPG' },
+  { id: 8, name: 'Sofa Set', price: '₹75,000', category: 'sofas', isBestSeller: true, rating: 4.9, reviews: 112, image: '/products/Sofa Set (2).JPG' },
+  { id: 9, name: 'Cane Sofa', price: '₹10,000', category: 'sofas', isNew: true, rating: 4.8, reviews: 67, image: '/products/Sofa.JPG' },
   { id: 10, name: 'Pedestal Glass-Top Dining Table', price: '₹42,000', category: 'dining', rating: 4.7, reviews: 94, image: '/products/cane_dining_table_1774781802134.png' },
   { id: 11, name: 'Woven Pendant Light', price: '₹6,500', category: 'custom', rating: 4.8, reviews: 132, image: '/products/cane_lamp_shade_1774781823123.png' },
   { id: 12, name: 'Tripod Floor Lamp', price: '₹12,000', category: 'custom', isNew: true, rating: 4.7, reviews: 52, image: '/products/cane_tripod_lamp_1774782073303.png' },
   { id: 13, name: 'The Circular "Moon" Shelf', price: '₹24,000', category: 'storage', rating: 4.9, reviews: 115, image: '/products/cane_book_shelf_1774781840173.png' },
   { id: 14, name: 'The Arched Etagere', price: '₹32,000', category: 'storage', isBestSeller: true, rating: 4.8, reviews: 88, image: '/products/cane_arched_shelf_1774782091139.png' },
-  { id: 15, name: 'Dining Chair Set', price: '18,500', category: 'dining', rating: 4.5, reviews: 64, image: '/public/products/Dining with moda.JPG' },
-  { id: 16, name: 'Stand Zoola', price: '₹28,500', category: 'outdoor', isNew: true, rating: 4.9, reviews: 52, image: '/public/products/Stand Zoola.JPG' },
-  { id: 17, name: 'Round Moda', price: '₹4,400', category: 'tables', rating: 4.7, reviews: 31, image: '/public/products/moda.JPG' },
+  { id: 15, name: 'Dining Chair Set', price: '18,500', category: 'dining', rating: 4.5, reviews: 64, image: '/products/Dining with moda.JPG' },
+  { id: 16, name: 'Stand Zoola', price: '₹28,500', category: 'outdoor', isNew: true, rating: 4.9, reviews: 52, image: '/products/Stand Zoola.JPG' },
+  { id: 17, name: 'Round Moda', price: '₹4,400', category: 'tables', rating: 4.7, reviews: 31, image: '/products/moda.JPG' },
   { id: 18, name: 'Curved Loveseat Sofa', price: '₹24,500', category: 'sofas', rating: 4.8, reviews: 42, image: '/products/cane_sofa_curved_loveseat_1774807479853.png' },
   { id: 19, name: '6-Seater Dining Set', price: '₹58,000', category: 'dining', isBestSeller: true, rating: 4.9, reviews: 88, image: '/products/cane_dining_6seater_rectangular_1774807530885.png' },
   { id: 20, name: 'Woven Table Lamp', price: '₹4,200', category: 'custom', rating: 4.7, reviews: 25, image: '/products/cane_lamp_table_woven_1774807567552.png' },
@@ -36,9 +36,9 @@ const products = [
   { id: 26, name: 'Natural Zola Pod', price: '₹28,500', category: 'outdoor', rating: 4.8, reviews: 31, image: '/products/Zola.JPG' },
   { id: 27, name: 'Square Moda Stool', price: '₹4,800', category: 'tables', isNew: true, rating: 4.6, reviews: 19, image: '/products/Square Moda.JPG' },
   { id: 28, name: 'Traditional Round Moda', price: '₹4,200', category: 'tables', rating: 4.7, reviews: 24, image: '/products/modaa.JPG' },
-  { id: 29, name: 'Dining Set', price: '₹25,000', category: 'dining', isBestSeller: true, rating: 4.9, reviews: 38, image: '/public/products/Dining.JPG' },
-  { id: 30, name: 'Sofa Set', price: '₹26,500', category: 'sofas', isNew: true, rating: 5.0, reviews: 12, image: '/public/products/Sofa+Chairs.JPG' },
-  { id: 31, name: 'Sofa Set', price: '₹22,000', category: 'storage', rating: 4.7, reviews: 20, image: '/public/products/sofaasets.jpeg' }
+  { id: 29, name: 'Dining Set', price: '₹25,000', category: 'dining', isBestSeller: true, rating: 4.9, reviews: 38, image: '/products/Dining.JPG' },
+  { id: 30, name: 'Sofa Set', price: '₹26,500', category: 'sofas', isNew: true, rating: 5.0, reviews: 12, image: '/products/Sofa+Chairs.JPG' },
+  { id: 31, name: 'Sofa Set', price: '₹22,000', category: 'storage', rating: 4.7, reviews: 20, image: '/products/sofaasets.jpeg' }
 ];
 
 const Collections = () => {
