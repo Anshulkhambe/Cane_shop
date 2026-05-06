@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Users, Leaf, Award, Shield, Heart, MapPin, Star, CheckCircle } from 'lucide-react';
 import { fadeInUp, staggerContainer, staggerItem } from '../config/animations';
+import sanjayImg from '../assets/sanjay.jpeg';
 
 const stats = [
   { value: '15+', label: 'Years of Craftsmanship', icon: Award },
@@ -136,11 +137,11 @@ const About = () => {
               transition={{ duration: 0.7 }}
               className="relative"
             >
-              <img
-                src="/src/assets/sanjay.jpeg"
-                alt="Cane furniture craftsmanship"
-                className="rounded-2xl shadow-luxury w-full h-80 md:h-[420px] object-cover"
-              />
+             <img
+      src={sanjayImg} // 2. Use the variable here instead of the string path
+      alt="Cane furniture craftsmanship"
+      className="rounded-2xl shadow-luxury w-full h-80 md:h-[420px] object-cover"
+    />
               <div className="absolute -bottom-6 -left-6 glass-card rounded-2xl p-5 shadow-luxury">
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-primary-600" />
