@@ -137,7 +137,7 @@ const About = () => {
               className="relative"
             >
               <img
-                src="src\assets\sanjay.jpeg"
+                src="\assets\sanjay.jpeg"
                 alt="Cane furniture craftsmanship"
                 className="rounded-2xl shadow-luxury w-full h-80 md:h-[420px] object-cover"
               />
